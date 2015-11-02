@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=usb-thing.OutJob
+Name=bgm111-breakout.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft XPS Document Writer
+TargetPrinter=\\ctxcon\Ricoh Aficio SP C820DN PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -69,7 +69,6 @@ Configuration1_Name11=OutputConfigurationParameter11
 Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name12=OutputConfigurationParameter12
 Configuration1_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-PcbPrintPreferences1=
 OutputType2=Schematic Print
 OutputName2=Schematic Prints
 OutputCategory2=Documentation
@@ -148,61 +147,46 @@ Configuration3_Name25=OutputConfigurationParameter25
 Configuration3_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
 Configuration3_Name26=OutputConfigurationParameter26
 Configuration3_Item26=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer
-PcbPrintPreferences3=
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
-OutputCategory4=Report
+OutputType4=Gerber
+OutputName4=Gerber Files
+OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
-OutputEnabled4_OutputMedium2=4
-OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=1
 OutputEnabled4_OutputMedium4=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
-Configuration4_Item1==SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType5=Gerber
-OutputName5=Gerber Files
+Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FileComment= |FileComment= |FileSubject=Autodetect|FileSubject=Autodetect|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|GerberX2Support=False|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|MirrorX2.Set= |MirrorX2GerberClass=False|NewFileNamesFormat=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlotX2.Set= |PlotX2GerberClass=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+OutputType5=NC Drill
+OutputName5=NC Drill Files
 OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
 OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
-OutputEnabled5_OutputMedium3=1
+OutputEnabled5_OutputMedium3=2
 OutputEnabled5_OutputMedium4=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FileComment= |FileComment= |FileSubject=Autodetect|FileSubject=Autodetect|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|GerberX2Support=False|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|MirrorX2.Set= |MirrorX2GerberClass=False|NewFileNamesFormat=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlotX2.Set= |PlotX2GerberClass=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
-OutputType6=NC Drill
-OutputName6=NC Drill Files
-OutputCategory6=Fabrication
-OutputDocumentPath6=
-OutputVariantName6=
-OutputEnabled6=1
-OutputEnabled6_OutputMedium1=0
-OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=2
-OutputEnabled6_OutputMedium4=0
-OutputDefault6=0
-Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
 
 [PublishSettings]
-OutputFilePath2=C:\projects\usb-thing\hardware\altium\usb-thing\Project Outputs for usb-thing\usb-thing.PDF
+OutputFilePath2=C:\projects\bgm111-breakout\Project Outputs for bgm111-breakout\usb-thing.pdf
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for bgm111-breakout
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=usb-thing.pdf
+OutputFileName2=bgm111-breakout.PDF
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
-OutputFileNameSpecial2=
+OutputFileNameSpecial2==ProjectName
 OpenOutput2=1
 PromptOverwrite2=1
 PublishMethod2=0
@@ -216,12 +200,12 @@ MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
-OutputFilePath3=C:\projects\usb-thing\hardware\altium\usb-thing\Project Outputs for usb-thing\
+OutputFilePath3=C:\projects\bgm111-breakout\Project Outputs for bgm111-breakout\2015-11-03\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for usb-thing
-OutputPathMedia3=
-OutputPathMediaValue3=
-OutputPathOutputer3=[Output Type]
+OutputBasePath3=Project Outputs for bgm111-breakout
+OutputPathMedia3==CurrentDate
+OutputPathMediaValue3==CurrentDate
+OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
@@ -231,7 +215,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for usb-thing
+OutputBasePath4=Project Outputs for bgm111-breakout
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -268,9 +252,9 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\projects\usb-thing\hardware\altium\usb-thing\Project Outputs for usb-thing\usb-thing.PDF
+RelativeOutputPath2=C:\projects\bgm111-breakout\Project Outputs for bgm111-breakout\usb-thing.pdf
 OpenOutputs2=1
-RelativeOutputPath3=C:\projects\usb-thing\hardware\altium\usb-thing\Project Outputs for usb-thing\
+RelativeOutputPath3=C:\projects\bgm111-breakout\Project Outputs for bgm111-breakout\2015-11-03\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
