@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- BGAPI over UART project. Do not use with WSTK -->
+<project device="bgm111">
+
+	<!-- GATT service database -->
+	<gatt in="gatt.xml" />
+	
+    <!-- Local hardware configuration file -->
+    <hardware in="hardware.xml" />
+		 
+	<!-- Firmware output file -->
+    <image out="bgapi.bin" />
+
+</project>

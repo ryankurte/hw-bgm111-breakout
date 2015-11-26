@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hardware>
+       
+	<!-- UART configuration -->
+	<!-- Do NOT use with WSTK -->
+	<!-- Settings: @115200bps, RTS (PA3 pin)/CTS (PA2 pin) enabled and BGAPI serial protocol is enabled -->
+	<uart index="1" baud="115200" flowcontrol="false" bgapi="true" />
+	
+    <!-- GPIO configuration needed for WSTK UART to work-->
+    <gpio port="A" pin="5" mode="pushpull" out="1"/>
+    <gpio port="A" pin="3" mode="pushpull" out="0"/>
+    
+    <!-- GPIO configuration for LED1 -->
+    <gpio port="C" pin="6" mode="pushpull" out="1"/>
+    <gpio port="C" pin="7" mode="pushpull" out="0"/>
+    <gpio port="C" pin="8" mode="pushpull" out="0"/>
+    <gpio port="C" pin="9" mode="pushpull" out="0"/>
+    
+    
+
+	<ctune value="0" />
+</hardware>
+

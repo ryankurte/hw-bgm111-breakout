@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<gatt>
+
+	<!-- Generic Access Service -->
+	<!-- https://developer.bluetooth.org/gatt/services/Pages/ServiceViewer.aspx?u=org.bluetooth.service.generic_access.xml -->    
+	<service uuid="1800">
+
+		<description>Generic Access Service</description>
+		
+		<!-- Device name -->
+		<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.gap.device_name.xml -->
+		<characteristic uuid="2a00">
+			<properties read="true" const="true" />
+			<value>BGM111-Breakout</value>
+		</characteristic>
+
+		<!-- Appearances -->
+		<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.gap.appearance.xml -->
+		<characteristic uuid="2a01">
+			<properties read="true" const="true" />
+			<value type="hex">0000</value>
+		</characteristic>
+
+	</service>
+
+	<!-- Device Information Service -->
+	<!-- https://developer.bluetooth.org/gatt/services/Pages/ServiceViewer.aspx?u=org.bluetooth.service.device_information.xml -->
+	<service uuid="180A">
+
+		<description>Device Information Service</description>
+	
+		<!-- Manufacturer name string -->
+		<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.manufacturer_name_string.xml -->
+		<characteristic uuid="2A29">
+			<properties read="true" const="true" />
+			<value>Silicon Labs</value>
+		</characteristic>
+
+		<!-- Model number string string -->
+		<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.model_number_string.xml -->
+		<characteristic uuid="2A24">
+			<properties read="true" const="true" />
+			<value>BGM111</value>
+		</characteristic>
+
+		<!-- Serial number string -->
+		<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.system_id.xml -->
+		<characteristic uuid="2A23">
+			<properties read="true" const="true" />
+			<value type="hex">000102030405</value>
+		</characteristic>
+
+	</service>
+	
+</gatt>
