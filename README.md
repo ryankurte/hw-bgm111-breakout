@@ -6,7 +6,7 @@ This exposes the serial port for communication and control via [BGApi/BBGLib](ht
 Check out the [releases](../../releases) section for current schematics/renderings and gerber packages for upload to your [favourite](https://oshpark.com/) [PCB](https://www.seeedstudio.com/service/index.php?r=pcb) [manufacturer](http://dirtypcbs.com/).
 
 ## Top Layer
-![PCB render](images/bgm111-breakout-v0.2.0-top.png)
+![PCB render](images/bgm111-breakout-v0.2.2-top.png)
 
 ## Bottom Layer
-![PCB render](images/bgm111-breakout-v0.2.0-bottom.png)
+![PCB render](images/bgm111-breakout-v0.2.2-bottom.png)
