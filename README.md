@@ -6,6 +6,8 @@ This exposes the serial port for communication and control via [BGApi/BBGLib](ht
 
 Check out the [releases](../../releases) section for current schematics/renderings and gerber packages for upload to your [favourite](https://oshpark.com/) [PCB](https://www.seeedstudio.com/service/index.php?r=pcb) [manufacturer](http://dirtypcbs.com/).
 
+Boards from OSHPark can be ordered [here](https://oshpark.com/shared_projects/ZKBud2br)
+
 ## Getting Started
 
 You will need an [ARM programmer](https://www.segger.com/jlink-debug-probes.html) with support for the silabs ARM core onboard, as well as a cortex-m [debug adaptor](https://www.olimex.com/Products/ARM/JTAG/ARM-JTAG-20-10/).
